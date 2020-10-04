@@ -125,7 +125,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Software Engineer"
         dates = "2018.02 - 2020.01"
         company = "Mercari, Inc."
-        details = "メルカリのファッションUX改善、グロースを行う。2020年2月 メルカリへ戻ってくる。ファッションカテゴリのUX改善 / グロースに関わる。テックリードを努め、ARKitを使ってT-shirt AutomeasuringのPOC開発などを行う。その後もiOSをメインとしつつバックエンドに関わる。\n\nメンバー5-10名, iOS 10-14, Swift 4, ReactiveSwift, MVVM, Redux, microservice, GoLang"
+        details = "メルカリのファッションUX改善、グロースを行う。ファッションカテゴリのUX改善 / グロースに関わる。テックリードを努め、ARKitを使ってT-shirtの自動採寸のPOC開発などを行う。その後もiOSをメインとしつつバックエンドに関わる。\n\nメンバー5-10名, iOS 10-14, Swift 4, ReactiveSwift, MVVM, Redux, microservice, GoLang"
 
         [[params.experience.list]]
         dates = "2018.02 - 2020.01"
@@ -220,21 +220,20 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.information.list]]
         title = "Applications (a part)"
         [[params.information.list.items]]
-        details = "2013 · TunesTweet / macOS app: iTunesで再生している曲をShare出来るアプリ"
-
+        details = """2014 · ForceGoodFit / iOS Tweak: make older apps fit on your larger iPhone 6 and iPhone 6 Plus screen
+- Cydia BigBoss repositoryへ公開
+- 23万ダウンロード
+- [海外サイトレビュー記事](http://www.idownloadblog.com/2014/10/31/forcegoodfit-iphone-6-iphone-6-plus-resolution/), [カウンタ](http://apt.thebigboss.org/stats.php?dev=kindadev)
+        """
         [[params.information.list.items]]
         details = """2014 · CCNowPlaying / iOS Tweak: Post #NowPlaying from Control Center
 - Cydia BigBoss repositoryへ公開
 - 1万7千ダウンロード
 - [海外サイトレビュー記事](http://www.idownloadblog.com/2014/01/10/how-to-add-a-now-playing-shortcut-to-control-center/), [GitHub](https://github.com/wakinchan/CCNowPlaying), [カウンタ](http://apt.thebigboss.org/stats.php?dev=kindadev)
         """
-
         [[params.information.list.items]]
-        details = """2014 · ForceGoodFit / iOS Tweak: make older apps fit on your larger iPhone 6 and iPhone 6 Plus screen
-- Cydia BigBoss repositoryへ公開
-- 23万ダウンロード
-- [海外サイトレビュー記事](http://www.idownloadblog.com/2014/10/31/forcegoodfit-iphone-6-iphone-6-plus-resolution/), [カウンタ](http://apt.thebigboss.org/stats.php?dev=kindadev)
-        """
+        details = "2013 · TunesTweet / macOS app: iTunesで再生している曲をShare出来るアプリ"
+
 
         [[params.information.list]]
         title = "Papers / Web"
