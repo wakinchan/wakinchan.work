@@ -117,6 +117,10 @@ googleAnalytics = "UA-39033033-3"
         name = "植物 / 温室"
         [[params.interests.list]]
         name = "旅行"
+        [[params.interests.list]]
+        name = "モビリティ"
+        [[params.interests.list]]
+        name = "Emoji / Memoji"
 
     [params.summary]
         enable = true
