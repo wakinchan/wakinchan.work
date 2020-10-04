@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = "https://wakinchan-work.web.app/"
 languageCode = "ja"
 title = "Yusuke KUROIWA's resume"
 theme = "devresume"
@@ -282,3 +282,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fas fa-external-link-alt"
         url = "//qiita.com/wa_kinchan"
         title = "Qiita"
+
+    [params.footer]
+        copyright = "wakinchan"
