@@ -20,15 +20,15 @@ googleAnalytics = "UA-39033033-3"
 
     [params.contact]
         enable = true
-        location = "Tokyo"
+        location = "Meguro, Tokyo"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
-        url = "tel:#"
+        url = "tel:08046499618"
         text = "080-4649-9618"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
-        url = "mailto:#"
+        url = "mailto:kinda.dev@gmail.com"
         text = "kinda.dev(at)gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
@@ -137,7 +137,7 @@ googleAnalytics = "UA-39033033-3"
 
         [[params.experience.list]]
         dates = "2018.02 - 2020.01"
-        company = "Mercari, Inc., Souzoh, Inc., neuet.Inc."
+        company = "Mercari, Souzoh, neuet.Inc."
         details = "ソウゾウ(メルカリ)に入社。ソリューションチームから新規事業の[シェアサイクルサービス「メルチャリ」](https://charichari.bike/)事業の立ち上げに携わり、福岡にてリリース。iOS開発をメインとして携わり、CSツールや、運用のアプリのWeb開発、必要に応じてBackendの開発もおこなった。第2世代の鍵開発するため、中国にて鍵の仕様設計なども行った。\n\nメンバー10名, iOS 10-13, Swift 3-4, RxSwift, MVVM, TypeScript, React, GoLang, Hardware, CoreBluetooh"
         [[params.experience.list.items]]
         details = "メルチャリiOSアプリの設計・開発"
