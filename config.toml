@@ -123,7 +123,7 @@ googleAnalytics = "UA-39033033-3"
 
         [[params.experience.list]]
         title = "Software Engineer"
-        dates = "2018.02 - 2020.01"
+        dates = "2020.02 - Present"
         company = "Mercari, Inc."
         details = "メルカリのファッションUX改善、グロースを行う。ファッションカテゴリのUX改善 / グロースに関わる。テックリードを努め、ARKitを使ってT-shirtの自動採寸のPOC開発などを行う。その後もiOSをメインとしつつバックエンドに関わる。\n\nメンバー5-10名, iOS 10-14, Swift 4, ReactiveSwift, MVVM, Redux, microservice, GoLang"
 
