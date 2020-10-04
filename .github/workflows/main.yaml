@@ -15,10 +15,18 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
-      - name: Run npm install
-        run: npm install
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.75.1'
+          extended: true
       - name: Build
-        run: npm run build
+        run: hugo --gc --minify --cleanDestinationDir
+      - name: Archive Production Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: public
+          path: ./public
   deploy:
     name: Deploy
     needs: build
@@ -27,13 +35,14 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
       - name: Download Artifact
-        uses: actions/download-artifact@master
+        uses: actions/download-artifact@v2
         with:
           name: public
+          path: ./public
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
           args: deploy --only hosting
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
-          PROJECT_ID: wakincan-work
+          PROJECT_ID: wakinchan-work

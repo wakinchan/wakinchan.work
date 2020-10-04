@@ -1,6 +1,4 @@
 {
-  "scripts": {
-    "dev": "hugo server",
-    "build": "hugo --gc --minify --cleanDestinationDir"
-  }
+  "scripts": {},
+  "dependencies": {}
 }
