@@ -145,7 +145,7 @@ googleAnalytics = "UA-39033033-3"
         title = "IT Engineer"
         dates = "2015.03 - 2018.01"
         company = "HandsLab, Inc"
-        details = "東急ハンズの既存のPOSレジをiPadでリプレースプロジェクトを任されて入社。「HandsPOS」プロジェクトの立ち上げから、設計、開発、リリース、店舗展開、運用、外部交渉などをすべて行った。\n\n入社当初はiOSエンジニアはおらず、1人でiOS側はPOS基本機能から外部機器連携まで実装。3人で(デザイナー1人, バックエンドエンジニア1人)で9ヶ月で初回のリリースした。2016年9月からチームリーダーとして従事。その後、クレジット端末連動、電子マネー端末連携、セミセルフレジ対応、インバウンド向け決済対応まで行う。\n\n最大メンバー6名, iOS 8-10, Swift 1-3, AWS (Lambda, DyanmoDB, S3, SNS, Kinesis, Congnito), Unicage, Windows POS Ready 7, OPS, UPOS"
+        details = "東急ハンズの既存のPOSレジをiPadのPOSへ、リプレースするプロジェクトをオファーをされ入社。プロジェクトの立ち上げ、要件定義、設計、開発、リリース、店舗展開、運用、外部交渉などを行った。\n\n入社当初はiOSエンジニアはおらず、1人でiOS側はPOS基本機能から外部機器連携まで実装。3人で(デザイナー1人, バックエンドエンジニア1人)で9ヶ月で初回のリリースした。2016年9月からチームリーダーとして従事。その後、クレジット端末連動、電子マネー端末連携、セミセルフレジ対応、インバウンド向け決済対応まで行う。\n\n最大メンバー6名, iOS 8-10, Swift 1-3, AWS (Lambda, DyanmoDB, S3, SNS, Kinesis, Congnito), Unicage, Windows POS Ready 7, OPS, UPOS"
         [[params.experience.list.items]]
         details = "POS基本機能 (売上, 返品, 値引・割引, マスタダウンロード 等)開発"
         [[params.experience.list.items]]
@@ -155,7 +155,7 @@ googleAnalytics = "UA-39033033-3"
         [[params.experience.list.items]]
         details = "電子マネー決済機能連携開発 (交通系IC、Edy、iD、QUICPay), 外部ベンダー調整, 電子マネー検定・試験対応"
         [[params.experience.list.items]]
-        details = "クレジット決済機能連携開発, シンクライアントEMV対応, 当時日本がまだマグストライプ文化だったところでEMVへ挑戦した"
+        details = "クレジット決済機能連携開発, シンクライアントEMV対応"
         [[params.experience.list.items]]
         details = "POSの店舗展開 / レジ入替設置 (キッティングからLAN配線やルータの設置など含めて)"
         [[params.experience.list.items]]
