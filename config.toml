@@ -29,11 +29,15 @@ googleAnalytics = "UA-39033033-3"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
-        text = "kinda.dev@gmail.com"
+        text = "kinda.dev(at)gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
-        url = "#"
-        text = "closed"
+        url = "wakinchan.work"
+        text = "wakinchan.work"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "kindadev.com"
+        text = "closed (kindadev.com)"
 
 
     [params.skills]
