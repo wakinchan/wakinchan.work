@@ -1,3 +1,284 @@
+# Page settings
+
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "ja"
+title = "Yusuke KUROIWA's resume"
+theme = "devresume"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+[params]
+    author = "Yusuke KUROIWA"
+    description = "Hello. This is Yusuke KUROIWA"
+    primaryColor = "#007042"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Yusuke KUROIWA"
+        tagline = "Software Engineer"
+        avatar = "wakinchan-memoji-black.png"
+
+    [params.contact]
+        enable = true
+        location = "Tokyo"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "080-4649-9618"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "kinda.dev@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "closed"
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Swift/Objective-C/Xcode"
+        [[params.skills.list.items]]
+        details = "RxSwift/ReactiveCocoa"
+        [[params.skills.list.items]]
+        details = "React/TypeScript/WebStorm"
+        [[params.skills.list.items]]
+        details = "GoLang/gPRC/Protocol Buffers"
+        [[params.skills.list.items]]
+        details = "MVC/MVP/MVVM/Redux"
+        [[params.skills.list.items]]
+        details = "Bitrise/CircleCI/Fastlane"
+        [[params.skills.list.items]]
+        details = "AWS/CGP(Firebase)"
+        [[params.skills.list.items]]
+        details = "CI/CD"
+        [[params.skills.list.items]]
+        details = "Sketch/Figma"
+        [[params.skills.list.items]]
+        details = "Apple DEP/VPP/MDM/Apple Configurator"
+        [[params.skills.list.items]]
+        details = "Wordpress"
+
+        [[params.skills.list]]
+        title = "Others"
+        [[params.skills.list.items]]
+        details = "Scrum"
+        [[params.skills.list.items]]
+        details = "Design and implement software systems"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Hacking iOS and other apps"
+        [[params.skills.list.items]]
+        details = "DOOM II"
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "大阪工業大学"
+        university = "コンピュータ科学科"
+        dates = "2010 - 2014"
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "try! Swift Tokyo 2017 hackathon freee賞"
+        body = "Multipeer Translation iOS application"
+        date = "2017.03.04"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Japanese"
+        level = "Native"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "ガジェット"
+        [[params.interests.list]]
+        name = "テクノロジー"
+        [[params.interests.list]]
+        name = "決済"
+        [[params.interests.list]]
+        name = "植物 / 温室"
+        [[params.interests.list]]
+        name = "旅行"
+
+    [params.summary]
+        enable = true
+        text = "黒岩裕輔。1992年、神戸生まれ、28歳。\n\n大学生のときに、個人ブログ「きんちゃんぶろぐ」立ち上げ、iOS Jailbreak CommunityでiOSの研究・Jailbreak Tweak App開発を趣味でしていた。ブログは月間100万ビューを超える（2020年にあたらしいことをしたく閉鎖）。\n\n新卒で地元神戸の会社に入社、Android OSのCamera HALの実装に関わる。\n\niOSに関わりたく、Twitterで誘っていただいてた、東急ハンズの情シスの会社ハンズラボへ転職、上京。自社レジをプロジェクト立ち上げを担う。プロジェクトリーダーとして、POS機能の開発強化・店舗への設置導入・運用・取引先との調整・採用などあらゆることを行った。\n\nメルカリ(新規事業立ち上げのソウゾウ)に入社。シェアサイクルサービスのメルチャリにSoftware Engineer (主にiOS)として、サービス立ち上げに関わる。並行してメルチャリの運用に関わるWebや、バックエンドの開発の一部も一緒に行った。その後、ファッションのUX改善、グロースに関わっている。また、テックリードとして、TシャツのARKitを使って自動採寸機能をPOCを開発を行った。 "
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "2018.02 - 2020.01"
+        company = "Mercari, Inc."
+        details = "メルカリのファッションUX改善、グロースを行う。2020年2月 メルカリへ戻ってくる。ファッションカテゴリのUX改善 / グロースに関わる。テックリードを努め、ARKitを使ってT-shirt AutomeasuringのPOC開発などを行う。その後もiOSをメインとしつつバックエンドに関わる。\n\nメンバー5-10名, iOS 10-14, Swift 4, ReactiveSwift, MVVM, Redux, microservice, GoLang"
+
+        [[params.experience.list]]
+        dates = "2018.02 - 2020.01"
+        company = "Mercari, Inc. (Souzoh, Inc.)"
+        details = "ソウゾウ(メルカリ)に入社。ソリューションチームから新規事業の[シェアサイクルサービス「メルチャリ」](https://charichari.bike/)事業の立ち上げに関わり、福岡にてリリース。iOS開発をメインとして関わり、CSツールや、運用のアプリのWeb開発や、必要に応じてBackendの開発もおこなった。またBluetooth鍵のリプレースや導入にも関わり出張で中国へ行き鍵の仕様設計なども行った。\n\nメンバー10名, iOS 10-13, Swift 3-4, RxSwift, MVVM, TypeScript, React, GoLang, Hardware, CoreBluetooh"
+        [[params.experience.list.items]]
+        details = "メルチャリiOSアプリの設計・開発"
+        [[params.experience.list.items]]
+        details = "Webフロントエンドの設計・開発"
+        [[params.experience.list.items]]
+        details = "2019.07.26 · 「メルチャリ」をneuet, Inc.へ事業譲渡のため、neuetへ出向"
+        [[params.experience.list.items]]
+        details = "2019.10 · オフィスの立ち上げに従事, オフィスビル探しからデザイン, NW構築などを担当"
+
+
+        [[params.experience.list]]
+        title = "IT Engineer"
+        dates = "2015.03 - 2018.01"
+        company = "HandsLab, Inc"
+        details = "東急ハンズの既存のPOSレジをiPadでリプレースプロジェクトを任されて入社。「HandsPOS」プロジェクトの立ち上げから、設計、開発、リリース、店舗展開、運用、外部交渉などをすべて行った。\n\n入社当初はiOSエンジニアはおらず、1人でiOS側はPOS基本機能から外部機器連携まで実装。3人で(デザイナー1人, バックエンドエンジニア1人)で9ヶ月で初回のリリースした。2016年9月からチームリーダーとして従事。その後、クレジット端末連動、電子マネー端末連携、セミセルフレジ対応、インバウンド向け決済対応まで行う。\n\n最大メンバー6名, iOS 8-10, Swift 1-3, AWS (Lambda, DyanmoDB, S3, SNS, Kinesis, Congnito), Unicage, Windows POS Ready 7, OPS, UPOS"
+        [[params.experience.list.items]]
+        details = "POS基本機能 (売上, 返品, 値引・割引, マスタダウンロード 等)開発"
+        [[params.experience.list.items]]
+        details = "外部機器連携 (レシートプリンタ連動, スキャナ連動, 自動釣銭機連動) 機能開発"
+        [[params.experience.list.items]]
+        details = "お客様向けディスプレイ(iPad) 連携機能開発"
+        [[params.experience.list.items]]
+        details = "電子マネー決済機能連携開発 (交通系IC、Edy、iD、QUICPay), 外部ベンダー調整, 電子マネー検定・試験対応"
+        [[params.experience.list.items]]
+        details = "クレジット決済機能連携開発, シンクライアントEMV対応, 当時日本がまだマグストライプ文化だったところでEMVへ挑戦した"
+        [[params.experience.list.items]]
+        details = "POSの店舗展開 / レジ入替設置 (キッティングからLAN配線やルータの設置など含めて)"
+        [[params.experience.list.items]]
+        details = "外部調整 / 運用委託調整 / 設計"
+        [[params.experience.list.items]]
+        details = "MDM / DEP管理方法の推進 / 調査, 交渉, 運用方法策定, 導入 / iPod touch 従業員3,000人分, iPad POS 800台向け"
+        [[params.experience.list.items]]
+        details = "セミセルフレジ設計 (会計をお客様にして頂く形態の機能追加)"
+        [[params.experience.list.items]]
+        details = "AliPay, WeChatPay設計"
+        [[params.experience.list.items]]
+        details = "外販向けiOSアプリ, 社内向けカフェポイントアプリの作成 (WKWebViewアプリ), Singapore POSのバグ改修 (Objective-C), TokyuHandsPDAのバグ改修・機能追加 (Objective-C)"
+
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "2014.06 - 2015.02"
+        company = "東京コンピュータサービス株式会社"
+        details = "Android Camera HAL moduleの開発: 詳細設計, プログラミング, 単体テスト, 結合テスト\n\nメンバー10名, Linux (Ubuntu), Android, AOSP, Qualcomm, C++, C, Java, Device Tree, Hardware, Prototype"
+
+
+    [params.projects]
+        enable = false
+
+        [[params.projects.list]]
+        title = "Project Lorem Ipsum"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+
+        [[params.projects.list]]
+        title = "Project Sed Fringilla"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+        [[params.projects.list]]
+        title = "Project Praesent"
+        meta = "Open Source"
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+    [params.information]
+        enable = true
+        [[params.information.list]]
+        title = "Conference"
+        [[params.information.list.items]]
+        details = "2020.02.12 · potatotips #68, [未知の世界 App Transfer](https://speakerdeck.com/wakinchan/wei-zhi-falseshi-jie-app-transfer-at-potatotips-number-68)"
+        [[params.information.list.items]]
+        details = "2017.09.17 · iOSDC Japan 2017, [iOSデバイス3,500台を管理する、 東急ハンズのデバイス手法とは](https://speakerdeck.com/wakinchan/iosdc-japan-2017-iosdebaisu3-500tai-woguan-li-suru-dong-ji-hanzufalsedebaisushou-fa-toha)"
+        [[params.information.list.items]]
+        details = "2017.03.11 · JAWSDAYS 2017 Lunch Session, [東急ハンズのiPad POS「HandsPOS」と AWSの付き合い方](https://www.slideshare.net/kindaiddqd/20170311-jawsdays-lunch-sessionipad-poshandspos-aws)"
+        [[params.information.list.items]]
+        details = "2016.08.20 · iOSDC Japan 2016 Lunch Session, [東急ハンズのPOSから学んだ、業務iOSアプリの向き合い方](https://www.slideshare.net/kindaiddqd/20160820-iosdc-launch-sessionposios)"
+
+        [[params.information.list]]
+        title = "Blog"
+        [[params.information.list.items]]
+        details = """(Closed: 2012 - 2020) 2012年大学生のときに始めたBlog「きんちゃんぶろぐ」
+- 学生の頃、一時期月間100万ビューに到達。
+- 主にiOS 脱獄 (Jailbreak) に関連する自分で作ったiOS Tweakアプリの紹介、iOSやmacOSの解析結果、実験結果、Tipsについて書いてきました。
+- AWS EC2でWordpressを動かして運営していました。
+        """
+
+        [[params.information.list]]
+        title = "Applications (a part)"
+        [[params.information.list.items]]
+        details = "2013 · TunesTweet / macOS app: iTunesで再生している曲をShare出来るアプリ"
+
+        [[params.information.list.items]]
+        details = """2014 · CCNowPlaying / iOS Tweak: Post #NowPlaying from Control Center
+- Cydia BigBoss repositoryへ公開
+- 1万7千ダウンロード
+- [海外サイトレビュー記事](http://www.idownloadblog.com/2014/01/10/how-to-add-a-now-playing-shortcut-to-control-center/), [GitHub](https://github.com/wakinchan/CCNowPlaying), [カウンタ](http://apt.thebigboss.org/stats.php?dev=kindadev)
+        """
+
+        [[params.information.list.items]]
+        details = """2014 · ForceGoodFit / iOS Tweak: make older apps fit on your larger iPhone 6 and iPhone 6 Plus screen
+- Cydia BigBoss repositoryへ公開
+- 23万ダウンロード
+- [海外サイトレビュー記事](http://www.idownloadblog.com/2014/10/31/forcegoodfit-iphone-6-iphone-6-plus-resolution/), [カウンタ](http://apt.thebigboss.org/stats.php?dev=kindadev)
+        """
+
+        [[params.information.list]]
+        title = "Papers / Web"
+        [[params.information.list.items]]
+        details = "2020 · Related [Automatically measure your clothes on a smartphone with AR](https://engineering.mercari.com/en/blog/entry/2020-06-19-150222/)"
+        [[params.information.list.items]]
+        details = "2017.07.20 · Related [SPECIAL REPORT iOSDC Japan 2017, WEB+DB PRESS Vol. 101 page 9](http://gihyo.jp/magazine/wdpress/archive/2017/vol101)"
+        [[params.information.list.items]]
+        details = "2017.07.20 · [ベリトランスとハンズラボ、東急ハンズにクレジットカード情報の非保持化とICカードに対応したPOSシステムを提供開始 ～経済産業省推進の「カード取引におけるセキュリティ対策の強化に向けた実行計画」に対応～](http://www.itmedia.co.jp/enterprise/articles/1509/18/news032.html)"
+        [[params.information.list.items]]
+        details = "2015.09.29 · [ビジネスとApple エンジニア育成とアプリ開発の内製化が変革の肝, Mac Fan 2015年11月号 page 194 ~ 195](https://book.mynavi.jp/macfan/content/id=43083)"
+        [[params.information.list.items]]
+        details = "2015.10.28 · [数千台の iPod Touch 管理の手間を飛躍的に削減、東急ハンズが採用した最新のモバイル管理とは](http://news.mynavi.jp/kikaku/2015/10/28/001/), [事例](http://www.i3-systems.com/case.html)"
+        [[params.information.list.items]]
+        details = "2015.09.18 · [客と店のできることが融合？東急ハンズのiPod touch導入記](http://www.itmedia.co.jp/enterprise/articles/1509/18/news032.html)"
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/wakinchan"
+        title = "wakinchan"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/wa_kinchan/"
+        title = "@wa_kinchan"
+        [[params.social.list]]
+        icon = "fab fa-facebook-square"
+        url = "//www.facebook.com/cykinda"
+        title = "@wa_kinchan"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//www.linkedin.com/in/yusuke-kuroiwa-138b614b/"
+        title = "LinkedIn"
+        [[params.social.list]]
+        icon = "fab fa-slideshare"
+        url = "//www.slideshare.net/kindaiddqd"
+        title = "SlideShare"
+        [[params.social.list]]
+        icon = "fab fa-speaker-deck"
+        url = "//speakerdeck.com/wakinchan"
+        title = "Speaker Deck"
+        [[params.social.list]]
+        icon = "fas fa-external-link-alt"
+        url = "//qiita.com/wa_kinchan"
+        title = "Qiita"
