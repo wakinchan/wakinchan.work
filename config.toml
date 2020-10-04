@@ -212,9 +212,9 @@ googleAnalytics = "UA-39033033-3"
         title = "Blog"
         [[params.information.list.items]]
         details = """(Closed: 2012 - 2020) 2012年大学生のときに始めたBlog「きんちゃんぶろぐ」
-- 学生の頃、一時期月間100万ビューに到達。
-- 主にiOS 脱獄 (Jailbreak) に関連する自分で作ったiOS Tweakアプリの紹介、iOSやmacOSの解析結果、実験結果、Tipsについて書いてきました。
-- AWS EC2でWordpressを動かして運営していました。
+- 学生の頃、一時期月間100万ビューに到達
+- 主にiOS 脱獄 (Jailbreak) に関連する自分で作ったiOS Tweakアプリの紹介、iOSやmacOSの解析結果、実験結果、Tipsについて投稿
+- AWS EC2でWordpressを動かして運営
         """
 
         [[params.information.list]]
@@ -242,7 +242,7 @@ googleAnalytics = "UA-39033033-3"
         [[params.information.list.items]]
         details = "2017.07.20 · Related [SPECIAL REPORT iOSDC Japan 2017, WEB+DB PRESS Vol. 101 page 9](http://gihyo.jp/magazine/wdpress/archive/2017/vol101)"
         [[params.information.list.items]]
-        details = "2017.07.20 · [ベリトランスとハンズラボ、東急ハンズにクレジットカード情報の非保持化とICカードに対応したPOSシステムを提供開始 ～経済産業省推進の「カード取引におけるセキュリティ対策の強化に向けた実行計画」に対応～](http://www.itmedia.co.jp/enterprise/articles/1509/18/news032.html)"
+        details = "2015.09.18 · [ベリトランスとハンズラボ、東急ハンズにクレジットカード情報の非保持化とICカードに対応したPOSシステムを提供開始 ～経済産業省推進の「カード取引におけるセキュリティ対策の強化に向けた実行計画」に対応～](http://www.itmedia.co.jp/enterprise/articles/1509/18/news032.html)"
         [[params.information.list.items]]
         details = "2015.09.29 · [ビジネスとApple エンジニア育成とアプリ開発の内製化が変革の肝, Mac Fan 2015年11月号 page 194 ~ 195](https://book.mynavi.jp/macfan/content/id=43083)"
         [[params.information.list.items]]
