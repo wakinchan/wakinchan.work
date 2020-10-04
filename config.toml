@@ -4,7 +4,7 @@ baseURL = "https://wakinchan-work.web.app/"
 languageCode = "ja"
 title = "Yusuke KUROIWA's resume"
 theme = "devresume"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "UA-39033033-3"
 
 [params]
     author = "Yusuke KUROIWA"
