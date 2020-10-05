@@ -20,7 +20,7 @@ googleAnalytics = "UA-39033033-3"
 
     [params.contact]
         enable = true
-        location = "Meguro, Tokyo"
+        location = "Meguro, Tokyo, JAPAN"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
