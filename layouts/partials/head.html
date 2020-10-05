@@ -16,4 +16,5 @@
     {{ $style := resources.Get "scss/devresume.scss" | resources.ExecuteAsTemplate "scss/devresume.scss" . | toCSS (dict "targetPath" "assets/css/devresume.css") | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}">
     {{ template "_internal/opengraph.html" . }}
+    {{ template "_internal/twitter_cards.html" . }}
 </head>
