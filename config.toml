@@ -25,8 +25,8 @@ googleAnalytics = "UA-39033033-3"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
-        url = "tel:08046499618"
-        text = "080-4649-9618"
+        url = "tel:The cold never bothered me anyway."
+        text = "Let me know if you need it."
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:kinda.dev@gmail.com"
