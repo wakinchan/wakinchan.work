@@ -138,7 +138,7 @@ googleAnalytics = "UA-39033033-3"
         [[params.experience.list]]
         dates = "2018.02 - 2020.01"
         company = "Mercari, Souzoh, Merpay, neuet.Inc."
-        details = "ソウゾウ(メルカリ)に入社。ソリューションチームから新規事業の[シェアサイクルサービス「メルチャリ」](https://charichari.bike/)事業の立ち上げに携わり、福岡にてリリース。iOS開発をメインとして携わり、CSツールや、運用のアプリのWeb開発、必要に応じてBackendの開発もおこなった。第2世代の鍵開発するため、中国で鍵の仕様すり合わせなども行った。\n\nメンバー10名, iOS 10-13, Swift 3-4, RxSwift, MVVM, TypeScript, React, GCP(AppEngine, Datastore), Firebase, GoLang, Hardware, CoreBluetooh"
+        details = "ソウゾウ(メルカリ)に入社。ソリューションチームに配属。新規事業の[シェアサイクルサービス「メルチャリ」](https://charichari.bike/)事業の立ち上げに携わり、福岡にてリリース。メルチャリチームに移籍して、iOS開発をメインとして携わり、CSツールや、運用のアプリのWeb開発、必要に応じてBackendの開発もおこなった。第2世代の鍵開発するため、中国で鍵の仕様すり合わせなども行った。\n\nメンバー10名, iOS 10-13, Swift 3-4, RxSwift, MVVM, TypeScript, React, GCP(AppEngine, Datastore), Firebase, GoLang, Hardware, CoreBluetooh"
         [[params.experience.list.items]]
         details = "メルチャリiOSアプリの設計・開発"
         [[params.experience.list.items]]
