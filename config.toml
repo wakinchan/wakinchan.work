@@ -11,6 +11,7 @@ googleAnalytics = "UA-39033033-3"
     description = "Hello. This is YUSUKE :)"
     primaryColor = "#007042"
     textPrimaryColor = "#292929"
+    images = ["ogp.jpg"]
 
     [params.profile]
         enable = true
