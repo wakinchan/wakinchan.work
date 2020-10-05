@@ -264,15 +264,15 @@ googleAnalytics = "UA-39033033-3"
         [[params.social.list]]
         icon = "fab fa-github-square"
         url = "//github.com/wakinchan"
-        title = "wakinchan"
+        title = "Github"
         [[params.social.list]]
         icon = "fab fa-twitter-square"
         url = "//twitter.com/wa_kinchan/"
-        title = "@wa_kinchan"
+        title = "Twitter"
         [[params.social.list]]
         icon = "fab fa-facebook-square"
         url = "//www.facebook.com/cykinda"
-        title = "@wa_kinchan"
+        title = "Facebook"
         [[params.social.list]]
         icon = "fab fa-linkedin"
         url = "//www.linkedin.com/in/yusuke-kuroiwa-138b614b/"
