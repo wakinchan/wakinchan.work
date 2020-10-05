@@ -2,13 +2,13 @@
 
 baseURL = "https://wakinchan.work/"
 languageCode = "ja"
-title = "🥬🥬🥬 YUSUKE :)"
+title = "🥬🥬🥬 This is YUSUKE :)"
 theme = "devresume"
 googleAnalytics = "UA-39033033-3"
 
 [params]
     author = "Yusuke KUROIWA"
-    description = "Hello. This is Yusuke KUROIWA :)"
+    description = "Hello. This is YUSUKE :)"
     primaryColor = "#007042"
     textPrimaryColor = "#292929"
 
