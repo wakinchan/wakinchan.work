@@ -192,7 +192,7 @@ googleAnalytics = "UA-39033033-3"
         [[params.projects.list]]
         title = "Side Project"
         meta = "Closed Source"
-        tagline = "WIP, Developing for 🌏. Late 2020"
+        tagline = "WIP, Developing for 🌏. I would like to announce at Late 2020 - Early 2021."
 
     [params.information]
         enable = true
