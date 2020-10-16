@@ -45,11 +45,16 @@ googleAnalytics = "UA-39033033-3"
         enable = true
 
         [[params.skills.list]]
-        title = "Technical"
+        title = "Professional"
         [[params.skills.list.items]]
         details = "Swift/Objective-C/Xcode"
         [[params.skills.list.items]]
         details = "RxSwift/ReactiveCocoa"
+        [[params.skills.list.items]]
+        details = "Apple DEP/VPP/MDM/Apple Configurator"
+
+        [[params.skills.list]]
+        title = "Technical"
         [[params.skills.list.items]]
         details = "React/TypeScript/WebStorm"
         [[params.skills.list.items]]
@@ -64,8 +69,6 @@ googleAnalytics = "UA-39033033-3"
         details = "CI/CD"
         [[params.skills.list.items]]
         details = "Sketch/Figma"
-        [[params.skills.list.items]]
-        details = "Apple DEP/VPP/MDM/Apple Configurator"
         [[params.skills.list.items]]
         details = "Wordpress"
 
