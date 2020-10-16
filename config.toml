@@ -52,6 +52,8 @@ googleAnalytics = "UA-39033033-3"
         details = "RxSwift/ReactiveCocoa"
         [[params.skills.list.items]]
         details = "Apple DEP/VPP/MDM/Apple Configurator"
+        [[params.skills.list.items]]
+        details = "Knowledge of iOS Jailbreak, Hacking/researching iOS and third-party apps"
 
         [[params.skills.list]]
         title = "Technical"
@@ -70,18 +72,12 @@ googleAnalytics = "UA-39033033-3"
         [[params.skills.list.items]]
         details = "Sketch/Figma"
         [[params.skills.list.items]]
+        details = "Scrum"
+        [[params.skills.list.items]]
         details = "Wordpress"
 
         [[params.skills.list]]
         title = "Others"
-        [[params.skills.list.items]]
-        details = "Scrum"
-        [[params.skills.list.items]]
-        details = "Design and implement software systems"
-        [[params.skills.list.items]]
-        details = "Team player"
-        [[params.skills.list.items]]
-        details = "Knowledge of iOS Jailbreak, Hacking/researching iOS and third-party apps"
         [[params.skills.list.items]]
         details = "DOOM II/Knowledge of Cyberdeamon🚀"
 
