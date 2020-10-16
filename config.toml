@@ -78,9 +78,9 @@ googleAnalytics = "UA-39033033-3"
         [[params.skills.list.items]]
         details = "Team player"
         [[params.skills.list.items]]
-        details = "Hacking iOS and other apps"
+        details = "Knowledge of iOS Jailbreak, Hacking/researching iOS and third-party apps"
         [[params.skills.list.items]]
-        details = "DOOM II"
+        details = "DOOM II/Knowledge of Cyberdeamon🚀"
 
     [params.education]
         enable = true
