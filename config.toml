@@ -76,11 +76,6 @@ googleAnalytics = "UA-39033033-3"
         [[params.skills.list.items]]
         details = "Wordpress"
 
-        [[params.skills.list]]
-        title = "Others"
-        [[params.skills.list.items]]
-        details = "DOOM II/Knowledge of Cyberdeamon🚀"
-
     [params.education]
         enable = true
 
@@ -108,19 +103,23 @@ googleAnalytics = "UA-39033033-3"
         enable = true
 
         [[params.interests.list]]
-        name = "ガジェット"
+        name = "📱 Gadgets"
         [[params.interests.list]]
-        name = "テクノロジー"
+        name = "👨‍💻 Technology"
         [[params.interests.list]]
-        name = "決済"
+        name = "💰 Payments"
         [[params.interests.list]]
-        name = "植物 / 温室"
+        name = "🌵 Plants / Glasshouse with Greenhouse"
         [[params.interests.list]]
-        name = "旅行"
+        name = "🛫 Trips"
         [[params.interests.list]]
-        name = "モビリティ"
+        name = "🛴 Mobility"
         [[params.interests.list]]
-        name = "Emoji 🌵"
+        name = "🕶 Fashion"
+        [[params.interests.list]]
+        name = "🥰 Emoji"
+        [[params.interests.list]]
+        name = "🎮 DOOM II"
 
     [params.summary]
         enable = true
