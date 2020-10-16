@@ -11,7 +11,7 @@ googleAnalytics = "UA-39033033-3"
     description = "Hello, It's the works by wakinchan 🔧🔨⛏"
     primaryColor = "#007042"
     textPrimaryColor = "#292929"
-    images = ["ogp_1200_630.png", "ogp_ 600_315.png"]
+    images = ["ogp_1200_630.png", "ogp_600_315.png"]
 
     [params.profile]
         enable = true
