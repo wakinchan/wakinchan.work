@@ -130,13 +130,13 @@ googleAnalytics = "UA-39033033-3"
 
         [[params.experience.list]]
         title = "Software Engineer"
-        dates = "2020.02 - Present"
+        dates = "2020.02 - 2020.11"
         company = "Mercari, Inc."
         details = "メルカリのファッションUX改善、グロースを行う。ファッションカテゴリのUX改善 / グロースに携わる。テックリードを努め、[ARKitを使ったT-shirtの自動採寸のPOC開発](https://engineering.mercari.com/en/blog/entry/2020-06-19-150222/)などを行う。その後もiOSをメインとしつつバックエンドに携わる。\n\nメンバー5-10名, iOS 10-14, Swift 4, MicroViewController, ReactiveSwift, MVVM, Redux, Microservice, GoLang"
 
         [[params.experience.list]]
         dates = "2018.02 - 2020.01"
-        company = "Mercari, Souzoh, Merpay, neuet, Inc."
+        company = "Mercari, Inc. (Souzoh, neuet, Merpay)"
         details = "ソウゾウ(メルカリ)に入社。ソリューションチームに配属。新規事業の[シェアサイクルサービス「メルチャリ」](https://charichari.bike/)事業の立ち上げに携わり、福岡にてリリース。メルチャリチームに移籍して、iOS開発をメインとして携わり、CSツールや、運用のアプリのWeb開発、必要に応じてBackendの開発もおこなった。第2世代の鍵開発するため、中国で鍵の仕様すり合わせなども行った。\n\nメンバー10名, iOS 10-13, Swift 3-4, RxSwift, MVVM, TypeScript, React, GCP(AppEngine, Datastore), Firebase, GoLang, Hardware, CoreBluetooh"
         [[params.experience.list.items]]
         details = "メルチャリiOSアプリの設計・開発"
