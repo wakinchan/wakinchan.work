@@ -185,7 +185,7 @@ googleAnalytics = "UA-39033033-3"
 
 
     [params.projects]
-        enable = true
+        enable = false
 
         [[params.projects.list]]
         title = "Side Project"
