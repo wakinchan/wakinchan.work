@@ -60,7 +60,7 @@ googleAnalytics = "UA-39033033-3"
         [[params.skills.list.items]]
         details = "React/TypeScript/WebStorm"
         [[params.skills.list.items]]
-        details = "GoLang/gPRC/Protocol Buffers"
+        details = "Go/gPRC/Protocol Buffers"
         [[params.skills.list.items]]
         details = "MVC/MVP/MVVM/Redux"
         [[params.skills.list.items]]
