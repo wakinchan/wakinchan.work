@@ -278,7 +278,7 @@ NOT A HOTEL、1人目のソフトウェアエンジニアとして参画。\n
         [[params.social.list]]
         icon = "fab fa-github-square"
         url = "//github.com/wakinchan"
-        title = "Github"
+        title = "GitHub"
         [[params.social.list]]
         icon = "fab fa-twitter-square"
         url = "//twitter.com/wa_kinchan/"
