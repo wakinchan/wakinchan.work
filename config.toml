@@ -260,6 +260,8 @@ NOT A HOTEL、1人目のソフトウェアエンジニアとして参画。\n
         [[params.information.list]]
         title = "Papers / Web"
         [[params.information.list.items]]
+        details = "2022 · [なぜ設立2年のNOT A HOTELはiOSアプリ開発でSwiftUI×TCAを採用したのか？](https://note.com/wakinchan/n/neb23254e16b3)"
+        [[params.information.list.items]]
         details = "2020 · Related [Automatically measure your clothes on a smartphone with AR](https://engineering.mercari.com/en/blog/entry/2020-06-19-150222/)"
         [[params.information.list.items]]
         details = "2017.09.01 · [エンタープライズの世界で挑戦! ハンズラボのiOSアプリ開発現場に迫る](https://news.mynavi.jp/kikaku/20170901-a002/)"
