@@ -1,4 +1,7 @@
 {
   "scripts": {},
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "firebase-tools": "^11.1.0"
+  }
 }
