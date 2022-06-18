@@ -8,7 +8,7 @@ googleAnalytics = "UA-39033033-3"
 
 [params]
     author = "Yusuke KUROIWA"
-    description = "🥝🥝🥝 Hello~~, This is YUSUKE :) "
+    description = "🥝🥝🥝 Hello~~, This is wakichan :) "
     primaryColor = "#007042"
     textPrimaryColor = "#292929"
     images = ["ogp_1200_630.png", "ogp_600_315.png"]
